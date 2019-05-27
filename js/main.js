@@ -53,7 +53,7 @@ $(document).ready(function() {
               console.log("aca entras a la pagina de administrador cachon");
               $("#slide-out").append('<li><a class="collapsible-header waves-effect waves-blue"><i class="material-icons">folder_special</i>Hacerme socio</a></li>');
               $("#slide-out").append('<li><a class="collapsible-header waves-effect waves-blue"><i class="material-icons">folder_special</i>Paseos o cabalgatas</a></li>');
-              location.replace("C:/Users/Usuario/Downloads/clubecuestre/admin/index.html");
+              location.replace("https://ecuestre.herokuapp.com/admin/index.html");
 //file:///C:/Users/Usuario/Downloads/clubecuestre/admin/index.html
             }else if(persona.tipo == "usuario"){
               console.log("aca entras a la pagina de usuario cachon");
